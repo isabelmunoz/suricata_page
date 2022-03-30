@@ -1,0 +1,73 @@
+body {
+  font-family: "Open Sans";
+  /* Sección menú*/
+}
+.navbar {
+  background-color: #e83e8c;
+}
+.logo_menu {
+  width: 40%;
+  margin-left: 8vw;
+}
+#navbarNavAltMarkup {
+  display: flex;
+  flex-direction: row;
+  justify-content: end;
+  margin-right: 8vw;
+}
+
+/* sección cards*/
+.card-section h1 {
+  text-align: center;
+  color: #707070;
+  font-weight: 700;
+}
+.card-section {
+  display: flex;
+  justify-content: center;
+}
+.card {
+  color: #373a3c;
+}
+.card-title {
+  font-size: 17px;
+  font-weight: 700;
+}
+.card-text {
+  font-size: 16px;
+}
+.list-group-item,
+.card-link {
+  font-size: 11px;
+}
+.card-link {
+  color: #1c7cd5;
+  text-decoration: none;
+}
+
+/* sección iconos*/
+
+.icon-section {
+  background: #17a2b8;
+  display: flex;
+}
+.icon-section h2 {
+  font-size: 40px;
+  font-weight: 700;
+}
+
+.icons i {
+  margin-left: 1vw;
+  font-size: 40px;
+  padding-top: 0.8vw;
+}
+
+/* footer*/
+.footer {
+  background: #e83e8c;
+  text-align: center;
+}
+.footer img {
+  width: 5%;
+  padding: 3vw 0;
+}
