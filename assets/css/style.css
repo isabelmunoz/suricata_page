@@ -5,15 +5,20 @@ body {
 .navbar {
   background-color: #e83e8c;
 }
+.navbar-dark .navbar-toggler{
+    border-color: #ffffff !important;
+}
 .logo_menu {
   width: 40%;
   margin-left: 8vw;
 }
-#navbarNavAltMarkup {
-  display: flex;
-  flex-direction: row;
-  justify-content: end;
-  margin-right: 8vw;
+.navbar-collapse {
+    flex-basis: 100%;
+    flex-grow: 0 !important;
+    padding-right: 4vw;
+  }
+.container-fluid{
+    flex-wrap: unset !important;
 }
 
 /* sección cards*/
@@ -49,13 +54,24 @@ body {
 
 .icon-section {
   background: #17a2b8;
-  display: flex;
 }
 .icon-section h2 {
   font-size: 40px;
   font-weight: 700;
+  
+}
+.icons-rows{
+    display: flex;
+    justify-content: center;
+    
+}
+.icons-rows h2{
+    padding-left: 6vw;
 }
 
+.icons{
+    padding-left: 12vw !important;
+}
 .icons i {
   margin-left: 1vw;
   font-size: 40px;
@@ -71,3 +87,10 @@ body {
   width: 5%;
   padding: 3vw 0;
 }
+@media (max-width: 575.98px) { 
+    .footer img {
+        width: 20%;
+        padding: 3vw 0;
+      
+      }
+ }
